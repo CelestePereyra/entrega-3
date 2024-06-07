@@ -1,0 +1,59 @@
+
+.body{
+    background-color: $color-primary;
+}
+
+/* This only changes this particular animation duration */
+.animate__animated animate__rubberBand {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+body { 
+    div {
+        div.col-2{
+            img{
+                display: flex;
+                margin: 0%;
+                width: 95%;
+            }
+        }
+    }
+ } 
+
+header {
+    div{
+        h1{
+          @include flex
+        }
+    }
+}
+
+header div h2{
+   @include flex;
+}
+
+.tamaño{
+    width: 65%;
+}
+main div {
+    justify-content: center;
+}
+
+.contenedor{
+   @include flex2;
+    height: 100vh;
+}
+.item-conf{
+    @include flex;
+    
+}
+.pie{
+   @include flex;
+    padding: 15px;
+}

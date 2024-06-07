@@ -1,0 +1,10 @@
+.body2{
+    background-color: $color-primary;
+ }
+ .img-none{
+    display: none;
+ }
+ .pie-de-pg{
+   @include flex;
+    padding: 0%;
+ }
